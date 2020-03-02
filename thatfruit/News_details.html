@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="News_details.css">
+    <link rel="stylesheet" type="text/css" href="nhap.css">
+    <title>News detail</title>
+</head>
+<body>
+    <div class="wrapper">
+         <!-- Bắt đầu header -->
+         <header id="header">
+                <div class="container d-flex justify-content-md-end justify-content-center align-items-center header-list">
+                    <a href="" style="text-decoration: none;">
+                        <div class="account">
+                            <div class="dropdown">
+                                <span class="dropdown-toggle m-0 d-inline" id="dropdownMenuButton" >
+                                    <i class="fas fa-user"></i> Tài khoản
+                                </span>
+                                <div class="dropdownmenu">
+                                    <a class="dropdown-item" href="login.html">Đăng nhập</a>
+                                    <a class="dropdown-item" href="signIn">Đăng ký</a>
+                                    <a class="dropdown-item" id="out" >Đăng xuất</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="address-company"><i class="fas fa-map-marker-alt"></i> Bản đồ</a>
+                </div>
+            </header>
+            <section id="search-area">
+                <div class="container">
+                    <div class=" content-search row">
+                        <div class="input-group col-lg-6 col-md-12">
+                            <div class="ipg-wp">
+                                <input type="text" class="  search-query form-control" style="outline:0;box-shadow: none;" id="searchHeader" placeholder="Tìm kiếm sản phẩm" />
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button">
+                                        <i id="clickSearch" class="fas fa-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="header-right col-lg-6 col-md-12">
+                            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+                                <div class="container-fluid">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                                        data-target="#navbarResponsive">
+                                        <span class="navbar-toggler-icon" style="color:green;"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                                        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" href="home.html">Trang chủ</a>
+                                            </li>
+                                            <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />
+                                            <li class="nav-item" style="margin-top:-10px;">
+                                                <a class="nav-link" href="intro.html">Giới thiệu</a>
+                                            </li>
+                                            <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />
+                                            <div>
+                                                <li class="nav-item" >
+                                                    <a class="nav-link food_5">Sản phẩm<i class="fas fa-angle-down a"></i></a>
+                                                </li>
+                                                <div class="food_2">
+                                                    <div class="food_3">
+                                                        <p class="food_4"><a href="" style="text-decoration: none;">Trái cây tươi</a></p>
+                                                        <div class="xanh1"></div>
+                                                        <p>Trái cây ôn đới</p>
+                                                        <p>Trái cây nhiệt đới</p>
+                                                    </div>
+                                                    <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />
+                                                    <div class="food_3">
+                                                        <p class="food_4"><a href="" style="text-decoration: none;">Trái cây tươi</a></p>
+                                                        <div class="xanh1"></div>
+                                                        <p>Trái cây ôn đới</p>
+                                                        <p>Trái cây nhiệt đới</p>
+                                                    </div> 
+                                                    <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />   
+                                                    <div class="food_3">
+                                                        <p class="food_4"><a href="" style="text-decoration: none;">Trái cây tươi</a></p>
+                                                        <div class="xanh1"></div>
+                                                        <p>Trái cây ôn đới</p>
+                                                        <p>Trái cây nhiệt đới</p>
+                                                    </div> 
+                                                    <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />   
+                                                    <div class="food_3">
+                                                        <p class="food_4"><a href="" style="text-decoration: none;">Trái cây tươi</a></p>
+                                                        <div class="xanh1"></div>
+                                                        <p>Trái cây ôn đới</p>
+                                                        <p>Trái cây nhiệt đới</p>
+                                                    </div>  
+                                                    <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />  
+                                                    <div class="food_3">
+                                                        <p class="food_4"><a href="" style="text-decoration: none;">Trái cây tươi</a></p>
+                                                        <div class="xanh1"></div>
+                                                        <p>Trái cây ôn đới</p>
+                                                        <p>Trái cây nhiệt đới</p>
+                                                    </div>  
+                                                    <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />  
+                                                    <div class="food_3">
+                                                        <p class="food_4"><a href="" style="text-decoration: none;">Trái cây tươi</a></p>
+                                                        <div class="xanh1"></div>
+                                                        <p>Trái cây ôn đới</p>
+                                                        <p>Trái cây nhiệt đới</p>
+                                                    </div>        
+                                                </div>
+                                            </div>
+                                            <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />
+                                            <li class="nav-item" style="margin-top:-10px;">
+                                                <a class="nav-link" href="tintuc.html">Tin tức</a>
+                                            </li>
+                                            <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />
+                                            <li class="nav-item" style="margin-top:-10px;">
+                                                <a class="nav-link" href="contact.html">Liên hệ</a>
+                                            </li>
+                                            <hr style="width:80%; size:1px;margin-left: 15px;margin-top:-8px;" color="gray" />
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class=" logo">
+                                <a href="home.html" class="logo-company"><img src="https://i.ibb.co/G0m3WNt/logothatfruit.png" alt="ThatFruit"></a>
+                            </div>
+                            <a href="cart.html">
+                                <div id="car1" class="cart1">
+                                    <button class="card-item1 btn card1" type="button">
+                                        <i class="fas fa-cart-arrow-down" style="color:rgba(255, 123, 0, 0.897);"></i><span id="count"></span><span> sp</span> <span id="total">0 VNĐ</span>
+                                    </button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class=" header1">
+                <div class="container justify-content-center align-items-center h5">
+                    <ul>
+                        <a href="home.html">
+                            <li>Trang chủ</li>
+                        </a>
+                        <a href="intro.html">
+                            <li>Giới thiệu</li>
+                        </a>
+                        <div>
+                            <a><li class="food_0">Sản phẩm<i class="fas fa-angle-down a"></i></li></a>
+                            <div class="food">
+                                <div>
+                                    <p class="food_1"><a href="spchitiet.html">Trái cây tươi</a></p>
+                                    <div class="xanh"></div>
+                                    <a href=""><p>Trái cây nhiệt đới</p></a>
+                                    <a href=""> <p>Trái cây ôn đới</p></a>
+                                </div>
+                                <div>
+                                    <p class="food_1"><a href="spchitiet.html">Trái cây tươi</a></p>
+                                    <div class="xanh"></div>
+                                    <a href=""><p>Trái cây nhiệt đới</p></a>
+                                    <a href=""> <p>Trái cây ôn đới</p></a>
+                                </div>
+                                <div>
+                                    <p class="food_1"><a href="spchitiet.html">Trái cây tươi</a></p>
+                                    <div class="xanh"></div>
+                                    <a href=""><p>Trái cây nhiệt đới</p></a>
+                                    <a href=""> <p>Trái cây ôn đới</p></a>
+                                </div>
+                                <div>
+                                    <p class="food_1"><a href="spchitiet.html">Trái cây tươi</a></p>
+                                    <div class="xanh"></div>
+                                    <a href=""><p>Trái cây nhiệt đới</p></a>
+                                    <a href=""> <p>Trái cây ôn đới</p></a>
+                                </div>
+                                <div>
+                                    <p class="food_1"><a href="spchitiet.html">Trái cây tươi</a></p>
+                                    <div class="xanh"></div>
+                                    <a href=""><p>Trái cây nhiệt đới</p></a>
+                                    <a href=""> <p>Trái cây ôn đới</p></a>
+                                </div>
+                                <div>
+                                    <p class="food_1"><a href="spchitiet.html">Trái cây tươi</a></p>
+                                    <div class="xanh"></div>
+                                    <a href=""><p>Trái cây nhiệt đới</p></a>
+                                    <a href=""> <p>Trái cây ôn đới</p></a>
+                                </div>
+                            </div>
+                        </div>    
+                        <a href="tintuc.html">
+                            <li>Tin tức</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Liên hệ</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+    <!-- kết thức header -->
+
+    <!-- Bắt đầu main -->
+    <div class="main">
+
+<!-- Bắt đầu banner -->
+<section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner__wp">
+                        <div class="banner-text">
+                            <h4>Giới thiệu</h4>
+                            <a href="">Trang chủ</a>
+                            <span>//Giới thiệu</span>
+                        </div>
+                        <div class="banner-bg">
+                            <img src="https://www.thatfruit.vn/resources/img/banner.png" alt="">
+                        </div>
+                            <span class="bor bor1"></span>
+                            <span class="bor bor2"></span>
+                            <span class="bor bor4"></span>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Kết thúc bannner -->
+
+<!-- Bắt đầu newsdetail -->
+<section id="newsdetail">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="ndsearch">
+                    <div class="input-group ">
+                        <input class="form-control" type="text" placeholder="Tìm kiếm" aria-label="Search" id="keysearchnews">
+                        <div class="input-group-append " id="newdetailsearch">
+                                <span class="input-group-text" id="ndsearchbt"><i class="fas fa-search text-grey" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ndplist">
+                    <span class="ndplist-cap">Danh mục sản phẩm</span>
+                    <ul class="ndplist-list">
+                        <li><a href="list-product?small-category=1">Trái cây ôn đới</a> <span>(7)</span></li>
+                        <li><a href="list-product?small-category=2">Trái cây nhiệt đới</a> <span>(13)</span></li>
+                        <li><a href="list-product?small-category=3">Trái cây sấy khô </a> <span>(10)</span></li>
+                        <li><a href="list-product?small-category=4">Nước ép</a> <span>(5)</span></li>
+                        <li><a href="list-product?small-category=5">Nước ép Detox</a> <span>(12)</span></li>
+                        <li><a href="list-product?small-category=6">Chưa phân loại</a> <span>(8)</span></li>
+                    </ul>
+                </div>
+                <div class="ndrelatedp"><span class="ndrelatedp-cap">Sản phẩm liên quan</span>
+                    <div class="ndrelatedp-wp" id="_0">
+                        <div class="ndrwp-img">
+                        <img src="https://fruitshop.7uptheme.net/wp-content/uploads/2017/04//fruit_02-250x250.jpg" alt="">
+                            <div class="ndrwpi-mb">
+                            <a href="../product?id=11"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="ndrwp-text">
+                            <a class="ndrwpt-cap" href="../product?id=11">Dâu tây Đà Lạt</a>
+                            <i class="ndr-price">125.000 đ</i>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked" style="color: gray;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="ndrelatedp-wp" id="_0">
+                        <div class="ndrwp-img">
+                        <img src="https://fruitshop.7uptheme.net/wp-content/uploads/2017/04//fruit_02-250x250.jpg" alt="">
+                            <div class="ndrwpi-mb">
+                            <a href="../product?id=11"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="ndrwp-text">
+                            <a class="ndrwpt-cap" href="../product?id=11">Dâu tây Đà Lạt</a>
+                            <i class="ndr-price">125.000 đ</i>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"  style="color: gray;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="ndrelatedp-wp" id="_0">
+                        <div class="ndrwp-img">
+                        <img src="https://fruitshop.7uptheme.net/wp-content/uploads/2017/04//fruit_02-250x250.jpg" alt="">
+                            <div class="ndrwpi-mb">
+                            <a href="../product?id=11"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="ndrwp-text">
+                            <a class="ndrwpt-cap" href="../product?id=11">Dâu tây Đà Lạt</a>
+                            <i class="ndr-price">125.000 đ</i>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"  style="color: gray;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="ndrelatedp-wp" id="_0">
+                        <div class="ndrwp-img">
+                        <img src="https://fruitshop.7uptheme.net/wp-content/uploads/2017/04//fruit_02-250x250.jpg" alt="">
+                            <div class="ndrwpi-mb">
+                            <a href="../product?id=11"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="ndrwp-text">
+                            <a class="ndrwpt-cap" href="../product?id=11">Dâu tây Đà Lạt</a>
+                            <i class="ndr-price">125.000 đ</i>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"  style="color: gray;"></span>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+                <div class="ndtags">
+                    <span class="ndtags-cap">Search by Tags</span>
+                    <div class="tagnamelist">
+                        <div class="tagname"><a href="../news?id=1">Fruits</a></div>
+                        <div class="tagname"><a href="../news?id=1">Xanh</a></div>
+                        <div class="tagname"><a href="../news?id=1">Healthy</a></div>
+                        <div class="tagname"><a href="../news?id=1">Tự nhiên</a></div>
+                        <div class="tagname"><a href="../news?id=1">Tips</a></div>
+                        <div class="tagname"><a href="../news?id=1">Cà chua</a></div>
+                        <div class="tagname"><a href="../news?id=1">Mẹo</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-9">
+                <div class="ndarticle">
+                    <div class="artd-wp">
+                        <span class="d-block ar-cap ">This is pretty good</span>
+                        <span> Danh mục: <a href="#"> Nước ép </a></span> //
+                        <span> Ngày: <time> April 27.2019</time></span> //
+                        <span> Bình luận: <a href="#"> 0 </a></span>
+                    </div>
+                    <div class="arccontent" >
+                        <div class="img1">
+                            <img src="Capture.PNG" alt="">
+                        </div>
+                        <div class="text1">
+                            We applaud their efforts, but you don’t have to commit to dumpster-diving to live a foraging-friendly lifestyle. One of the best ways to incorporate some freeganism into your life is to take advantage of the wild fruits in your area. Odds are much of it is going to waste anyways. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Phasellus pharetra nulla ac diam. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Etiam pellentesque aliquet tellus.
+                        </div>
+                        <div class="highlight">"
+                            <div class="text1" style="font-style: italic;font-size:15px;padding-top: 20px;">The biggest problem was convincing my father that organic food was worth eating. All he could think of was the nut loaf with yeast gravy that my mother made in the Seventies.
+                            </div>
+                        </div>
+                        <h5>Fanbong</h5>
+                        <div class="part2">
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <div class="img2">
+                                        <img src="lemon.PNG" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <div class="text2">
+                                        <h3 style="color: black;">Disturb the soil as possible</h3>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eum nemo accusamus maxime atque libero provident velit? Repellat deserunt a numquam, consequuntur minima modi sapiente nisi praesentium exercitationem? Natus, non?
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="part3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro odio necessitatibus alias tempore sequi officia, eveniet maxime aspernatur nulla distinctio sapiente atque doloribus. Sequi vero molestias consectetur. Sint, aliquid quibusdam!</div>
+                    </div>
+                    <div class="arcshare-wp">
+                        <div class="arc-tags">
+                            <span> Tag:</span> <a>Green, Natural</a>
+                        </div>
+                        <div class="arc-share">
+                            <span> Share:</span> 
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.thatfruit.vn/newdetail?id=4" id="sharefb"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Ăn sáng đúng cách&amp;url=https://www.thatfruit.vn/newdetail?id=4" id="sharetw"><i class="fab fa-twitter"></i></a>
+                            <a href="https://plus.google.com/share?url=https://www.thatfruit.vn/newdetail?id=4" id="shareg+"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                    <div class="arc-np">
+                        <a href="../newdetail?id=3"><i class="fas fa-long-arrow-alt-left"></i>Trước</a>
+                        <a href="../newdetail?id=5">Sau <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Kết thúc newsdetail -->
+    </div>    
+<!-- Kết thúc main -->
+
+ <!-- Phần email -->
+ <section id="mail-area">
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-around">
+            <div class="col-md-3 col-sm-12">
+                <p class="text-center m-0">Đăng kí để nhận lời khuyên, tin tức và khuyến mãi từ Thật Fruit</p>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <div class="input-group">
+                    <input type="text" class="  search-query form-control" placeholder="Email của bạn" id="valsmail">
+                    <span class="input-group-btn">
+                        <button class="btn" type="button" id="btsmail" onclick="setFormFeedBack()">
+                            Đăng kí
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Hết phần email -->
+</div>
+<!-- Hết phần main -->
+
+ <!-- Bắt đầu footer -->
+<footer id="footer">
+<section id="footer__info">
+<div class="container">
+    <div class="row  d-flex justify-content-between" id="footer-menu">
+        <div class="col-md-3 col-sm-12">
+            <h5>Về chúng tôi</h5>
+            <img src="https://www.thatfruit.vn/resources/img/ft-img.png" alt="">
+            <p>Sản phẩm của chúng tôi được thu hoạch mới, đóng hộp
+                <span>[...]</span>
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <h5>Thông Tin</h5>
+            <ul class="dot">
+                <li><a href="home">Trang chủ</a></li>
+                <li><a href="aboutme">Giới thiệu</a></li>
+                <li><a href="news">Tin tức</a></li>
+                <li><a href="contact">Liên hệ</a></li>
+                <li><a href="user">Lịch sử mua hàng</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <h5>Thật Fruit</h5>
+            <ul class="dot">
+                <li><a href="tel:0981 992 352" class="hotline"><i class="fas fa-phone"></i> 0981 992 352</a></li>
+                <li><a href="mailto:thatfruit@gmail.com" class="mail-company"><i class="fas fa-envelope"></i> thatfruit@gmail.com</a></li>
+                <li><a href="http://maps.google.com/?q=120 Triệu Việt Vương, Hai Bà Trưng, Hà Nội" class="address-company"><i class="fas fa-map-marker-alt"></i> 120 Triệu Việt Vương, Hai Bà Trưng, Hà Nội</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr class="divider" style="border-top: 1px solid white;">
+    <div class="row d-flex align-items-center justify-content-between ">
+        <div class="col-md-4 col-sm-12 social">
+            <span>Follow us</span>
+            <a href="https://www.facebook.com/thatfruit120" class="link-facebook"><i class="fab fa-facebook-square"></i></a>
+            <a class="link-twitter" href="https://twitter.com/?lang=vi"><i class="fab fa-twitter-square"></i></a>
+            <a class="link-youtube" href="https://www.youtube.com/channel/UC6eVi3jZvyWtzifNsyfbRww"><i class="fab fa-youtube"></i></a>
+            <a class="link-instagram" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="col-md-5 col-sm-12 ecommerce">
+            <a href="https://tiki.vn"><img src="https://www.thatfruit.vn/resources/img/tiki.png" alt=""></a>
+            <a href="https://shopee.vn"><img src="https://www.thatfruit.vn/resources/img/shopee.png" alt=""></a>
+            <a href="https://www.sendo.vn"><img src="https://www.thatfruit.vn/resources/img/Sendo.png" alt=""></a>
+            <a href="https://www.grab.com/vn"><img src="https://www.thatfruit.vn/resources/img/grapfood.png" alt=""></a>
+            <a href="https://www.lazada.vn"><img src="https://www.thatfruit.vn/resources/img/ladaza.png" alt=""></a>
+        </div>
+    </div>
+</div>
+</section>
+<section id="footer__copyright" style="background-color: rgb(30, 30, 30);color: white;height: 30px;">
+<div class="container">
+    <div class="row ">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+            <p class="m-0" style="line-height: 30px;font-size:13px;"> © Bản quyền thuộc về Thật Fruit</p>
+        </div>
+    </div>
+</div>
+</section>
+</footer>
+<!-- Kết thúc footer -->
+    </div>
+    <script>    
+        jQuery(document).ready(function() {
+            var offset = 220;
+            var duration = 500;
+            jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);} else {
+            jQuery('.back-to-top').fadeOut(duration);}});
+            jQuery('.back-to-top').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;})});</script>
+            <style>
+            div#page {
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;}
+            .back-to-top {
+            position: fixed;
+            bottom: 2em;
+            right: 0px;
+            text-decoration: none;
+            font-size: 12px;
+            padding: 1em;
+            display: none;}
+            .back-to-top:hover {
+            text-decoration: none;}</style>
+            <a href="#" class="back-to-top">
+                <div class="nuthong">
+                    <i class="fas fa-arrow-up"></i>                         
+                </div>    
+            </a>     
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="News_details.js"></script>
+</body>
+</html>

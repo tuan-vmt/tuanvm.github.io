@@ -1,0 +1,86 @@
+.tin1{
+    width:30%;
+    font-size: 13.5px;
+    position: relative;
+    margin-top:35px;
+}
+.tin{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:30px;
+}
+.thumbnai2 {
+    width: 100%;
+    top:0px;left:0px; 
+    border: 1px solid #e5e5e5;
+    overflow: hidden;  
+    position: relative; 
+    height: 80%;
+}
+.thumbnail2 img {
+    width: 100%; 
+    height: 100%;
+    top:0;left:0;  
+    transition-duration: 0.5s;
+        /* Safari & Google Chrome */
+        -webkit-transition-duration: 0.7s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.7s; 
+        /* Opera */
+        -o-transition-duration: 0.7s;
+        /* IE 9 */
+        -ms-transition-duration: 0.7s;  
+    position: relative;    
+}
+/* Hover chuột vào thumbnail */
+.thumbnail2 img:hover {
+    transform: scale(1.4);
+        /* Safari & Google Chrome */
+        -webkit-transform: scale(1.2);
+        /* Mozilla Firefox */
+        -moz-transform: scale(1.2); 
+        /* Opera */
+        -o-transform: scale(1.2);
+        /* IE 9 */
+        -ms-transform: scale(1.2);
+    cursor: pointer; 
+}
+.tin11{
+    width:70px;
+    height: 25px;
+    background: rgb(48, 47, 47);
+    color:white;
+    position: absolute;
+    top:5%;
+    z-index: 100;
+}
+.tin11 :hover{
+    color:rgb(12, 214, 12);
+}
+.as{
+    margin-top:30px;
+    font-size: 18px;
+
+}
+.tin1 span{
+    color:rgb(99, 38, 2);
+}
+.xem{
+    width:80px;
+    height: 25px;
+    background: rgba(182, 69, 4, 0.74);
+    text-align: center;
+    border:solid;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+.xem:hover{
+    background: rgb(233, 145, 160);
+}
+@media screen and (max-width: 850px){
+    .tin1{ 
+        width:80%;
+    }
+}    

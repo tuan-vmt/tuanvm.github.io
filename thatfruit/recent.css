@@ -1,0 +1,232 @@
+
+.wrapper{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+}
+.giam1{
+    width:20px;
+    height: 20px;
+    background: white;
+    border:none;
+    color:gray;
+}
+.giam1:hover{
+    color: black;
+}
+.abc{
+    width:20px;
+    height: 20px;
+    background: white;
+    border:none;  
+    color:gray;
+}
+.abc:hover{
+    color: black;
+}
+/* nút back to top */
+#top {
+    width: 50px; height: 50px;
+    position: fixed; bottom: 10px; right: 10px;
+    cursor: pointer;
+    background:#28a745;
+}
+#top    i{
+    color:white;
+    font-size: 35px;
+    margin:7px 7px;
+}
+#top:hover {
+    background:#73be47 ;
+}
+/* hết nút backto top */
+
+/* Bắt đầu thanh cuộn chuột */
+
+/* Bắt đầu header */
+
+/* Hết header */
+
+/* Bắt đầu main */
+.main{
+    width: 100%;
+}
+#banner{
+    width:100%;
+}
+#banner .container  .row    .col-12 .banner__wp{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+}
+#banner .container  .row    .col-12 .banner__wp .banner-text{
+    position: absolute;
+    top: 35%;
+    left:20px;
+    z-index: 6;
+}
+#banner .container  .row    .col-12 .banner__wp .banner-text    h4{
+    color:#73be47;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#banner .container  .row    .col-12 .banner__wp .banner-text    a{
+    color:whitesmoke;
+    font-size:12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+#banner .container  .row    .col-12 .banner__wp .banner-text    span{
+    color:whitesmoke;
+    font-size:12px;
+    font-weight: 600;
+}
+#banner .container  .row    .col-12 .banner__wp    .banner-bg{
+    position: absolute;
+    width: 100%;
+}
+#banner .container  .row    .col-12 .banner__wp    .banner-bg  img{
+    position: absolute;
+    transition: 0.5s;
+    width: 100%;
+}
+#banner .container  .row    .col-12 .banner__wp:hover    .banner-bg  img{
+    transform: scale(1.1);
+}
+
+#banner .container  .row    .col-12 .banner__wp   span.bor.bor1{
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    display: block;
+    transition: 1s;
+    top: 10px;
+    width: 0;
+    height: 1px;
+    left: 50%;
+}
+#banner .container  .row    .col-12 .banner__wp:hover   span.bor.bor1{
+    width: 100%;
+    left: 0px;
+}
+#banner .container  .row    .col-12 .banner__wp   span.bor.bor2{
+    left: 10px;
+    width: 1px;
+    height: 0;
+    top: 50%;
+    background-color: white;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    transition: 1s;
+}
+#banner .container  .row    .col-12 .banner__wp:hover   span.bor.bor2{
+    height: 100%;
+    top: 0;
+}
+#banner .container  .row    .col-12 .banner__wp   span.bor.bor4{
+    bottom: 10px;
+    width: 0;
+    height: 1px;
+    right: 50%;
+    background-color: white;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    transition: 1s;
+}
+#banner .container  .row    .col-12 .banner__wp:hover   span.bor.bor4{
+    width: 100%;
+    right: 0;
+}
+/* Kết thúc phần banner */
+/* Bắt đầu table */
+#table{
+    margin-top:20px;
+    text-align: center;
+    font-size: 14px;
+}
+.tbody-card img{
+    width:25px;
+    height: 25px;
+}
+.anh111{
+    text-align: center;
+}
+/* Hết phần header */
+
+/* Bắt đầu phần main */
+/* Bắt đầu phần banner */
+#banner .container  .row    .col-12 .banner__wp{
+    height: 345px;
+}
+/* Kết thúc phần banner */
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    #top {
+        width: 40px; height: 40px;
+        position: fixed; bottom: 10px; right: 13%;
+        cursor: pointer;
+        background:#73be47;
+    }
+    #top    i{
+        color:white;
+        font-size: 25px;
+        margin:7px 7px;
+    }
+ 
+    /* Bắt đầu phần header */
+    .logo{
+        margin-left: 19%;
+        margin-top:5px;
+    }
+    .header1{
+        opacity:0;
+    }
+    .ipg-wp{
+        width:80%;
+        margin-left:10%;
+    }
+    #navbarResponsive{
+        color:black;
+        position: absolute;
+        margin-top:145px;
+        width:240px;
+        height:220px;
+        margin-left: -20px;
+        text-align: center;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+        -moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+        box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+        overflow-y: scroll;
+        background: white;
+        z-index: 10;
+    }
+    #car1{
+        margin-left:20%;
+        margin-top:30px;
+    }
+    
+    #car1   i{
+        color:#a1624d;
+    }
+    /* Kết thúc phần header */
+
+    /* Bắt đầu phần main */
+/* Bắt đầu phần banner */
+#banner .container  .row    .col-12 .banner__wp{
+    height:205px;
+}
+#banner .container  .row    .col-12 .banner__wp    .banner-bg{
+height: 100%;
+}
+#banner .container  .row    .col-12 .banner__wp    .banner-bg  img{
+height: 100%;
+}
+
+/* Kết thúc phần banner */
+}
